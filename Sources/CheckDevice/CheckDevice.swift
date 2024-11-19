@@ -171,6 +171,10 @@ open class CheckDevice {
             }
         case 844 :
             return .screen6_1Inch
+        case 874 :
+            return .screen6_3Inch
+        case 956 :
+            return .screen6_7Inch
         case 896:
             return  UIScreen.main.scale == 3.0 ? .screen6_5Inch : .screen6_1Inch
 //            switch version() {
